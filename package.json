@@ -1,0 +1,31 @@
+{
+  "name": "documentation-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "typedoc": "^0.17.8",
+    "typescript": "^3.9.6"
+  },
+  "scripts": {
+    "docs": "typedoc src"
+  },
+  "devDependencies": {
+    "@types/node": "^13.5.0",
+    "typedoc": "^0.16.9",
+    "typescript": "^3.7.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushkov-fedor/documentation-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pushkov-fedor/documentation-test/issues"
+  },
+  "homepage": "https://github.com/pushkov-fedor/documentation-test#readme"
+}
