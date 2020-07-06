@@ -24,6 +24,9 @@ jobs:
         run: |
           npm install
           npm run docs
+          
+      - name: NoJekyll
+        run: touch docs/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
